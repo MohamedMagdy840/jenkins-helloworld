@@ -18,7 +18,7 @@ pipeline {
 
         stage('Hello World') {
             steps {
-                echo "Hello World from ${params.ENVIRONMENT}"
+                echo "Hello World from trigger ${params.ENVIRONMENT}"
             }
         }
 
